@@ -2,6 +2,7 @@
     "env": {
         "browser": true,
         "es2021": true,
+        "commonjs": true,
         "node": true
     },
     "extends": [
@@ -12,5 +13,13 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
+        "no-undef" : "off",
+        "no-underscore-dangle" : "off",
+        "no-restricted-globals" : "off",
+        "no-unused-vars" : "off",
+        "max-len" : "off",
+        "consistent-return" : "off",
+        "no-prototype-builtins" : "off"
     }
 }
