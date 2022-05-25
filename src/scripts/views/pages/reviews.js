@@ -1,7 +1,7 @@
-const Home = {
+const Reviews = {
     async render() {
         return `
-        <h2>HOME PAGE DISINI</h2>
+        <h2>REVIEWS PAGE DISINI</h2>
       `;
     },
 
@@ -10,4 +10,4 @@ const Home = {
     },
 };
 
-export default Home;
+export default Reviews;
