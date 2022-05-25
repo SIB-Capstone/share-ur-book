@@ -2,15 +2,27 @@
     "env": {
         "browser": true,
         "es2021": true,
+        "commonjs": true,
         "node": true
     },
     "extends": [
         "airbnb-base"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
+        "no-undef" : "off",
+        "no-underscore-dangle" : "off",
+        "no-restricted-globals" : "off",
+        "no-unused-vars" : "off",
+        "max-len" : "off",
+        "consistent-return" : "off",
+        "no-prototype-builtins" : "off",
+        "eol-last" : "off",
+        "linebreak-style" : "off"
+        
     }
 }
