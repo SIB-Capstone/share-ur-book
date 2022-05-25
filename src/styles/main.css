@@ -42,6 +42,17 @@ a {
     padding: 1rem;
 }
 
+#hamburger-container {
+    text-align: right;
+}
+
+#hamburger {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+
 .navbar {
     background-color: transparent;
     position: sticky;
