@@ -1,4 +1,6 @@
 import DrawerInitiator from '../utils/drawer-initiator';
+import UrlParser from '../routes/url-parser';
+import routes from '../routes/routes';
 
 class App {
     constructor({
@@ -23,6 +25,18 @@ class App {
         });
     }
 
+    async renderPage() {
+        const url = UrlParser.parseActiveUrlWithCombiner();
+        const page = routes[url];
+        this._main.innerHTML = await page.render();
+        await page.afterRender();
+    }
+
 }
+const skipLinkElem = document.querySelector('.link-skip');
+skipLinkElem.addEventListener('click', (event) => {
+    event.preventDefault();
+    document.querySelector('#main-content').focus();
+});
 
 export default App;

@@ -9,3 +9,11 @@ const app = new App({
     main: document.querySelector('main'),
     navmobile: document.querySelector('.navbar-mobile'),
 });
+
+window.addEventListener('hashchange', () => {
+    app.renderPage();
+});
+
+window.addEventListener('load', () => {
+    app.renderPage();
+});
