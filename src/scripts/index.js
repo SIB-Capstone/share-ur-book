@@ -7,7 +7,7 @@ const app = new App({
     menu: document.querySelector('#menu-button'),
     jumbotron: document.querySelector('.jumbotron'),
     main: document.querySelector('main'),
-    navmobile: document.querySelector('.navbar-mobile'),
+    navmobile: document.querySelector('.navbar-mobile-view'),
 });
 
 window.addEventListener('hashchange', () => {

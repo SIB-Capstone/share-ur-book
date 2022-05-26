@@ -12,11 +12,10 @@ const Home = {
       </div>
       <div class="col-lg-6 mb-lg-5 mr-3">
       <p class="fw-bold">HEY THERE,</p>
-        <h1 class="display-5 fw-bold lh-1 mb-3">LEST SEE THE WORLD WITH OUR BOOK</h1>
-        <p class="lead">"I love books. I adore everything about them. I love the feel of the pages on my fingertips. They are light enough to carry, yet so heavy with worlds and ideas. I love the sound of the pages flicking against my fingers. Print against fingerprints. Books make people quiet, yet they are so loud."</p>
+        <h1 class="display-4 fw-bold lh-1 mb-3">LETS SEE THE WORLD WITH OUR BOOKS</h1>
+        <p class="lead">"Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers." ― Charles W. Eliot</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-5 rounded-5">Search For a Books Now!</button>
         </div>
       </div>
     </div>
