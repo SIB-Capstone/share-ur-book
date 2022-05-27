@@ -3,12 +3,18 @@
         width: 300px !important;
         margin-left: 5px !important;
     }
+    .searchbar {
+        padding: 0 10% !important;
+    }
 }
 
 @media screen and (max-width: 520px) {
     .jumbotron .ilustrator img {
         width: 300px;
         margin-left: 5px;
+    }
+    .searchbar {
+        padding: 0 20%;
     }
 }
 
@@ -88,6 +94,9 @@
     .jumbotron .ilustrator img {
         margin-left: -20px;
         width: 500px;
+    }
+    .searchbar {
+        padding: 0 20%;
     }
 }
 
