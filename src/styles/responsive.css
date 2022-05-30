@@ -18,6 +18,29 @@
     }
 }
 
+@media screen and (min-width: 670px) {
+    .list-book {
+        display: grid;
+        grid-template-columns: 1fr 1fr!important;
+    }
+    .booknotfound img {
+        width: 300px!important;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .list-book {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        width: 100%;
+    }
+    .booksItem {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .navbar-mobile-view {
         display: none;
@@ -100,8 +123,24 @@
     }
 }
 
+@media screen and (min-width: 960px) {
+    .list-book {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr!important;
+        padding: 100px;
+    }
+    .booknotfound img {
+        width: 500px!important;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .jumbotron .ilustrator img {
         width: 600px;
+    }
+    .list-book {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+        padding: 100px;
     }
 }
