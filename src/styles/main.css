@@ -12,6 +12,12 @@ html {
     height: 100%;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     font-size: 16px;
     background-color: #FFFDFC;
@@ -526,6 +532,63 @@ section {
 }
 
 
+/* template book reviews */
+
+.list-review {
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+
+.card-review {
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body {
+    margin: auto;
+    height: 400px;
+}
+
+.card-body p {
+    text-align: justify;
+}
+
+.button-review {
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #d6a95f;
+    border: none;
+    border-radius: 30px;
+}
+
+.button-review:hover {
+    background-color: #d8a24c;
+}
+
+.button-card {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.button-card a {
+    margin: 10px;
+}
+
+
 /* akhir content */
 
 
@@ -541,6 +604,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
 }
 
 footer p {

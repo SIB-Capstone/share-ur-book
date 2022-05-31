@@ -23,6 +23,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr!important;
     }
+    .list-review {
+        display: grid;
+        grid-template-columns: 1fr 1fr!important;
+    }
     .booknotfound img {
         width: 300px!important;
     }
@@ -35,6 +39,16 @@
         width: 100%;
     }
     .booksItem {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .list-review {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        width: 100%;
+    }
+    .card-review {
         justify-content: center;
         align-items: center;
         margin: auto;
@@ -132,6 +146,10 @@
     .booknotfound img {
         width: 500px!important;
     }
+    .list-review {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr!important;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -142,5 +160,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr!important;
         padding: 100px;
+    }
+    .list-review {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
     }
 }

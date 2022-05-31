@@ -25,6 +25,55 @@ const Reviews = {
             </div>
         </form>
       </div> 
+      <button class="button-review" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Add Your Reviews Now
+      </button>
+      <div class="form-review">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable"> 
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Books Reviews</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body detail-books">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Username</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Books Title</label>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Your Review</label>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add Review</button>
+                </div>
+                </div>
+            </div>
+            </div>
+      </div>
+
+      <div class="list-review" id="list-review">
+        <div class="card card-review">
+        <div class="card-body">
+          <h5>Special title treatment</h5>
+          <p>With supporting text below as a natural lead-in to additional content. lorp With supporting text below as a natural lead-in to additional content. lorpWith supporting text below as a natural lead-in to additional content. lorp</p>
+          <div class="button-card">
+          <a href="#" class="btn btn-primary">Edit Review</a>
+          <a href="#" class="btn btn-primary">Delete Review</a>
+          </div>
+        </div>
+        </div> 
+       
+      
+      </div>
+     
       
       <div class="booknotfound">
       <img src="${notfoundrevilustration}" alt="">
