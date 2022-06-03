@@ -405,7 +405,6 @@ section {
     width: 250px;
     height: 400px;
     color: #314A6D;
-    background: url(/images/logo/book_example.png) center no-repeat;
     background-size: cover;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -491,6 +490,32 @@ section {
 
 
 /* detail book */
+
+.detail-card {
+    width: 100%;
+}
+
+#imageBook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #395478;
+    height: 600px;
+}
+
+#imageBook img {
+    padding: 80px;
+    width: 70%;
+}
+
+#detailBook {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FAF8F7;
+    height: 600px;
+}
 
 .modal-content {
     background-color: #412111;

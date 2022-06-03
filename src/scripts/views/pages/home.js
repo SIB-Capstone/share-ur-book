@@ -5,8 +5,8 @@ import searchElement from '../../utils/searchBooks';
 import notfoundilustration from '../../../public/images/heros/notfound-books.svg';
 
 const Home = {
-    async render() {
-        return `
+  async render() {
+    return `
 
         <!-- ini jumbotron hero section  -->
         <div class="jumbotron">
@@ -34,8 +34,8 @@ const Home = {
             <div class="searchbar">
                 <form novalidate="novalidate" onsubmit="return false;" class="searchbox sbx-custom" id="searchBookForm">
                     <div role="search">
-                        <input type="text" name="search" placeholder="Fill with the title of the book or author ..." autocomplete="off" required="required" class="sbx-custom__input" id="searchBookInput"></input>
-                        <button type="submit" title="Search Book Now" class="sbx-custom__submit" id="buttonSearchBook">
+                        <input type="text" id="searchBookInput" name="searchBookInput" placeholder="Fill with the title of the book or author ..." autocomplete="off" required="required" class="sbx-custom__input" ></input>
+                        <button title="Search Book Now" class="sbx-custom__submit" id="buttonSearchBook">
                   <svg role="img" aria-label="Search">
                     <use xlink:href="${searchicon}#sbx-icon-search-5"></use>
                   </svg>
@@ -48,7 +48,7 @@ const Home = {
             </form>
           </div> 
           <div class="list-book" id="list-book">
-          
+
           </div>
           <div class="booknotfound">
           <img src="${notfoundilustration}" alt="">
@@ -62,11 +62,11 @@ const Home = {
 
   
       `;
-    },
+  },
 
-    async afterRender() {
-        document.querySelector('#buttonSearchBook').addEventListener('click', searchElement);
-    },
+  async afterRender() {
+    document.querySelector('#buttonSearchBook').addEventListener('click', searchElement);
+  },
 };
 
 export default Home;
