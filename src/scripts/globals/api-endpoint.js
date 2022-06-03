@@ -11,3 +11,4 @@ const api_endpoint_detail = (id) => {
 };
 
 export default { api_endpoint, api_endpoint_detail };
+
