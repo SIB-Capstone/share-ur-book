@@ -85,10 +85,11 @@
     }
     .menu-website img {
         box-sizing: border-box;
+        color: #002E5D;
     }
     .navbar-mobile-view {
         z-index: 10;
-        background-color: #f3f3f1;
+        background-color: #002E5D;
         width: 100%;
         position: absolute;
         -webkit-transform: translate(-100%, 0);
@@ -112,7 +113,7 @@
         font-weight: 400;
         font-size: 16px;
         padding: 10px 0px;
-        color: black !important;
+        color: white !important;
     }
     .side {
         -webkit-transform: translate(0, 0);
