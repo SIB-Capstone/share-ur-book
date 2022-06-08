@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 class Showingdetailitem {
     static showingdetailitem(books) {
         const { volumeInfo } = books;
