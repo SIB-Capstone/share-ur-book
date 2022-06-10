@@ -20,10 +20,10 @@ const searchElement = async(event) => {
     const notFound = document.querySelector('#booknotfound');
     const query = document.querySelector('#searchBookInput').value;
     BooksAPIReq(query);
-    if (notFound.style.display === "none") {
-        notFound.style.display = "block";
+    if (notFound.style.display === 'none') {
+        notFound.style.display = 'block';
     } else {
-        notFound.style.display = "none";
+        notFound.style.display = 'none';
     }
 };
 

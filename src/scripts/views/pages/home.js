@@ -48,7 +48,7 @@ const Home = {
             </form>
           </div> 
           <div class="list-book" id="list-book">
-
+         
           </div>
           <div class="booknotfound" id="booknotfound">
           <img src="${notfoundilustration}" alt="">
@@ -61,7 +61,7 @@ const Home = {
     },
 
     async afterRender() {
-        document.querySelector('#buttonSearchBook').addEventListener('click', searchElement)
+        document.querySelector('#buttonSearchBook').addEventListener('click', searchElement);
     },
 };
 
