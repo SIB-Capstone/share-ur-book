@@ -16,6 +16,7 @@ const Detail = {
     async afterRender() {
         const url = UrlParser.parseActiveUrlWithoutCombiner();
         const books = await detailBooks(url.id);
+        console.log(books);
     },
 
 };
