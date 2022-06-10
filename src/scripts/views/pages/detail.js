@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import css from 'bootstrap/dist/css/bootstrap.min.css';
 import UrlParser from '../../routes/url-parser';
 import detailBooks from '../../utils/detailBooks';
