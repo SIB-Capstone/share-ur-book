@@ -61,14 +61,15 @@ a {
     position: sticky;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
 }
 
 .navbar-desktop img {
-    margin-top: -6px;
+    margin-top: 8px;
     align-items: center;
+    margin-left: 6rem;
 }
 
 .logo-website {
@@ -85,6 +86,7 @@ a {
 
 .nav-list {
     margin-top: 8px;
+    margin: 0 4rem;
 }
 
 .nav-items a {

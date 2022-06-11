@@ -73,13 +73,13 @@
         display: none;
     }
     .logo-website img {
-        margin-left: -35px;
+        margin-left: -10px;
     }
     .menu-website a {
         box-sizing: border-box;
         min-width: 44px;
         min-height: 44px;
-        margin-right: -30px;
+        margin-right: -10px;
         font-size: 20px;
         padding: 10px;
     }
