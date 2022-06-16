@@ -5,8 +5,8 @@ import searchElement from '../../utils/searchBooks';
 import notfoundilustration from '../../../public/images/heros/notfound-books.svg';
 
 const Home = {
-    async render() {
-        return `
+  async render() {
+    return `
 
         <!-- ini jumbotron hero section  -->
         <div class="jumbotron">
@@ -45,7 +45,7 @@ const Home = {
                     <use xlink:href="${searchicon}#sbx-icon-clear-4"></use>
                   </svg>  
                 </div>
-            </form>
+            </form> 
           </div> 
           <div class="list-book" id="list-book">
          
@@ -58,11 +58,11 @@ const Home = {
     </section>
   
       `;
-    },
+  },
 
-    async afterRender() {
-        document.querySelector('#buttonSearchBook').addEventListener('click', searchElement);
-    },
+  async afterRender() {
+    document.querySelector('#buttonSearchBook').addEventListener('click', searchElement);
+  },
 };
 
 export default Home;

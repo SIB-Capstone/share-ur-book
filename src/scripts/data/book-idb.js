@@ -1,5 +1,3 @@
-/* eslint-disable no-prototype-builtins */
-/* eslint-disable consistent-return */
 import { openDB } from 'idb';
 import CONFIG from '../globals/config';
 
@@ -11,25 +9,22 @@ const dbPromise = openDB(DATABASE_NAME, DATABASE_VERSION, {
   },
 });
 
-const bookIdb = {
-  async getBook(id) {
-    if (!id) {
-      return;
-    }
+const FavoriteBook = {
+  async addBooksFav(id) {
+    return (await dbPromise).add(OBJECT_STORE_NAME, id);
+  },
+  async getBooksFav(id) {
     return (await dbPromise).get(OBJECT_STORE_NAME, id);
   },
-  async getAllBooks() {
+  async getAllBooksFav() {
     return (await dbPromise).getAll(OBJECT_STORE_NAME);
   },
-  async putBook(book) {
-    if (!book.hasOwnProperty('id')) {
-      return;
-    }
-    return (await dbPromise).put(OBJECT_STORE_NAME, book);
+  async putBooksFav(books) {
+    return (await dbPromise).put(OBJECT_STORE_NAME, books);
   },
-  async deleteBook(id) {
+  async deleteBookFav(id) {
     return (await dbPromise).delete(OBJECT_STORE_NAME, id);
   },
 };
 
-export default bookIdb;
+export default FavoriteBook;

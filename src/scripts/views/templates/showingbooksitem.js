@@ -1,16 +1,16 @@
 class Showingbooksitem {
-    static showingbooksitem(book) {
-        const { volumeInfo } = book;
-        this._templateBooks(book, volumeInfo);
-    }
+  static showingbooksitem(book) {
+    const { volumeInfo } = book;
+    this._templateBooks(book, volumeInfo);
+  }
 
-    static _templateBooks(book, volumeInfo) {
-            const {
-                title,
-                authors,
-                imageLinks,
-            } = volumeInfo;
-            document.querySelector('#list-book').innerHTML += `
+  static _templateBooks(book, volumeInfo) {
+    const {
+      title,
+      authors,
+      imageLinks,
+    } = volumeInfo;
+    document.querySelector('#list-book').innerHTML += `
         <div class="booksItem" style="background: url(${imageLinks.thumbnail})">
         <div class="cardBook">
             <h9 class="bookTitle">${title}</h9>
