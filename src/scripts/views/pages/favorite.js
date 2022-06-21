@@ -3,6 +3,7 @@ import searchicon from '../../../public/icons/search-icon.svg';
 import notfoundfavilustration from '../../../public/images/heros/notfound-fav.svg';
 import database from '../../data/book-idb';
 import AddFav from '../templates/favoriteitem';
+import delFavorite from '../../utils/delete-fav';
 
 const Favorite = {
     async render() {
@@ -26,27 +27,22 @@ const Favorite = {
             </form>
           </div> 
           <div class="list-book-fav" id="list-book-fav">
-            
           </div>
           <div class="booknotfound">
-          <img src="${notfoundfavilustration}" alt="">
+          <img src="${notfoundfavilustration}" alt=""> 
           <h3>Favorite book not found ...</h3>
         </div>
       `;
     },
 
     async afterRender() {
-        const notFound = document.querySelector('#booknotfound');
         const books = await database.getAllBooksFav();
         books.forEach((book) => {
             AddFav.templateFavorite(book);
+            delFavorite.deleteBooksFav(book);
         });
-        if (notFound.style.display === 'none') {
-            notFound.style.display = 'block';
-        } else {
-            notFound.style.display = 'none';
-        }
     },
+
 };
 
 export default Favorite;

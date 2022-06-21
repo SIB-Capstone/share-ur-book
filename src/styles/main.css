@@ -454,7 +454,7 @@ section {
     -o-transition: transform .25s;
 }
 
-/* .cardBook::before {
+.cardBook::before {
     content: '';
     position: absolute;
     top: -47px;
@@ -468,7 +468,7 @@ section {
     -o-transform: rotate(-175deg);
     border-radius: 50%;
     box-shadow: inset 48px 48px #FDD38C;
-} */
+}
 
 .bookTitle {
     color: #314A6D;
@@ -526,6 +526,13 @@ section {
 #detailbutton a {
     text-decoration: none;
     color: black;
+}
+
+.deletebutton {
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    outline: none;
 }
 
 
