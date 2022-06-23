@@ -16,14 +16,14 @@
     .searchbar {
         padding: 0 20%;
     }
-    #imageBook img {
-        padding: 40px;
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 670px) {
     .list-book {
+        display: grid;
+        grid-template-columns: 1fr 1fr!important;
+    }
+    .list-book-fav {
         display: grid;
         grid-template-columns: 1fr 1fr!important;
     }
@@ -38,6 +38,11 @@
 
 @media screen and (max-width: 671px) {
     .list-book {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        width: 100%;
+    }
+    .list-book-fav {
         display: grid;
         grid-template-columns: 1fr !important;
         width: 100%;
@@ -148,6 +153,11 @@
         grid-template-columns: 1fr 1fr 1fr!important;
         padding: 100px;
     }
+    .list-book-fav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr!important;
+        padding: 100px;
+    }
     .booknotfound img {
         width: 500px!important;
     }
@@ -162,6 +172,11 @@
         width: 600px;
     }
     .list-book {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+        padding: 100px;
+    }
+    .list-book-fav {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr!important;
         padding: 100px;

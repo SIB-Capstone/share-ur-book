@@ -45,7 +45,7 @@ const Home = {
                     <use xlink:href="${searchicon}#sbx-icon-clear-4"></use>
                   </svg>  
                 </div>
-            </form>
+            </form> 
           </div> 
           <div class="list-book" id="list-book">
          

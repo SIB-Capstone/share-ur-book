@@ -1,11 +1,13 @@
 import css from 'bootstrap/dist/css/bootstrap.min.css';
-import ilustration from '../../../public/images/heros/bibliophile-animate.svg';
 import searchicon from '../../../public/icons/search-icon.svg';
 import notfoundfavilustration from '../../../public/images/heros/notfound-fav.svg';
+import database from '../../data/book-idb';
+import AddFav from '../templates/favoriteitem';
+import delFavorite from '../../utils/delete-fav';
 
 const Favorite = {
-  async render() {
-    return `
+    async render() {
+        return `
         <div class="title-book-fav">
             <h2>FAVORITE BOOK LIST</h2>
             <div class="searchbar">
@@ -24,19 +26,23 @@ const Favorite = {
                 </div>
             </form>
           </div> 
-          <div class="list-book" id="list-book">
-            
+          <div class="list-book-fav" id="list-book-fav">
           </div>
           <div class="booknotfound">
-          <img src="${notfoundfavilustration}" alt="">
+          <img src="${notfoundfavilustration}" alt=""> 
           <h3>Favorite book not found ...</h3>
         </div>
       `;
-  },
+    },
 
-  async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
-  },
+    async afterRender() {
+        const books = await database.getAllBooksFav();
+        books.forEach((book) => {
+            AddFav.templateFavorite(book);
+            delFavorite.deleteBooksFav(book);
+        });
+    },
+
 };
 
 export default Favorite;
