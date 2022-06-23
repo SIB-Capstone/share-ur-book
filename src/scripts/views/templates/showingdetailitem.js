@@ -26,6 +26,7 @@ class Showingdetailitem {
             <p>${authors}</p>
             <span>Published by ${publisher}<span>
             <p>${description}</p>
+            <button type="button" name="favorite" autofocus id="favorite-button" class="favorite-button">Add To Favorite</button>
             </div>
         </div>
        </div>

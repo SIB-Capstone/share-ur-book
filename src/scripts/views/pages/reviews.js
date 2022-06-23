@@ -4,8 +4,8 @@ import searchicon from '../../../public/icons/search-icon.svg';
 import notfoundrevilustration from '../../../public/images/heros/notfound-review.svg';
 
 const Reviews = {
-  async render() {
-    return `
+    async render() {
+        return `
         <div class="title-book-fav">
         <h2>BOOKS REVIEWS</h2>
         <div class="searchbar">
@@ -59,16 +59,7 @@ const Reviews = {
       </div>
 
       <div class="list-review" id="list-review">
-        <div class="card card-review">
-        <div class="card-body">
-          <h5>Special title treatment</h5>
-          <p>With supporting text below as a natural lead-in to additional content. lorp With supporting text below as a natural lead-in to additional content. lorpWith supporting text below as a natural lead-in to additional content. lorp</p>
-          <div class="button-card">
-          <a href="#" class="btn btn-primary">Edit Review</a>
-          <a href="#" class="btn btn-primary">Delete Review</a>
-          </div>
-        </div>
-        </div> 
+       
        
       
       </div>
@@ -79,11 +70,11 @@ const Reviews = {
       <h3>Favorite book not found ...</h3>
   </div>
       `;
-  },
+    },
 
-  async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
-  },
+    async afterRender() {
+        // Fungsi ini akan dipanggil setelah render()
+    },
 };
 
 export default Reviews;
