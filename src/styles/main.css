@@ -691,7 +691,7 @@ section {
  * footer
  */
 
-#footer {
+ #footer {
     display: flex;
     padding: 1.5rem;
     font-family: 'Neue Haas Grotesk Text Pro', sans-serif;

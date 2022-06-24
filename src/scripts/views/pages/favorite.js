@@ -6,8 +6,8 @@ import AddFav from '../templates/favoriteitem';
 import delFavorite from '../../utils/delete-fav';
 
 const Favorite = {
-    async render() {
-        return `
+  async render() {
+    return `
         <div class="title-book-fav">
             <h2>FAVORITE BOOK LIST</h2>
             <div class="searchbar">
@@ -33,15 +33,15 @@ const Favorite = {
           <h3>Favorite book not found ...</h3>
         </div>
       `;
-    },
+  },
 
-    async afterRender() {
-        const books = await database.getAllBooksFav();
-        books.forEach((book) => {
-            AddFav.templateFavorite(book);
-            delFavorite.deleteBooksFav(book);
-        });
-    },
+  async afterRender() {
+    const books = await database.getAllBooksFav();
+    books.forEach((book) => {
+      AddFav.templateFavorite(book);
+      delFavorite.deleteBooksFav(book);
+    });
+  },
 
 };
 
