@@ -4,8 +4,8 @@ import searchicon from '../../../public/icons/search-icon.svg';
 import notfoundrevilustration from '../../../public/images/heros/notfound-review.svg';
 
 const Reviews = {
-    async render() {
-        return `
+  async render() {
+    return `
         <div class="title-book-fav">
         <h2>BOOKS REVIEWS</h2>
         <div class="searchbar">
@@ -70,11 +70,11 @@ const Reviews = {
       <h3>Favorite book not found ...</h3>
   </div>
       `;
-    },
+  },
 
-    async afterRender() {
-        // Fungsi ini akan dipanggil setelah render()
-    },
+  async afterRender() {
+    // Fungsi ini akan dipanggil setelah render()
+  },
 };
 
 export default Reviews;

@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 import css from 'bootstrap/dist/css/bootstrap.min.css';
 import UrlParser from '../../routes/url-parser';
 import detailBooks from '../../utils/detailBooks';
@@ -13,7 +12,6 @@ const Detail = {
     `;
   },
 
-  // eslint-disable-next-line no-empty-function
   async afterRender() {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const books = await detailBooks(url.id);
