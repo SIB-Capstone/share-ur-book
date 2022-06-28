@@ -133,6 +133,16 @@ a {
     width: 600px;
 }
 
+.jumbotron a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 
 /* akhir jumbotron */
 
@@ -381,6 +391,9 @@ section {
 
 .main {
     width: 100%;
+    min-height: 100%;
+    margin-bottom: 0 !important;
+    margin-top: 0;
 }
 
 .list-book {
@@ -616,6 +629,24 @@ section {
     display: grid;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.booknotfound {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.booknotfoundhome {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -90px;
 }
 
 
@@ -675,6 +706,15 @@ section {
     margin: 10px;
 }
 
+#formreview {
+    padding: 100px;
+    width: 100%;
+}
+
+.about-pg {
+    min-height: 100vh;
+}
+
 
 /* akhir content */
 
@@ -684,19 +724,16 @@ section {
  */
 
 footer {
-    background-color: #002E5D;
-    padding: 0.5em;
+    background-color: #F3F4EF;
     width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+    bottom: 0;
 }
 
-footer p {
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    padding: 1em;
+.row {
+    --bs-gutter-x: 0 !important;
+    width: 100%;
+}
+
+.list {
+    margin-top: 20px;
 }
