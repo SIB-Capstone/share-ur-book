@@ -14,5 +14,3 @@ class template {
 }
 
 export default template;
-
-// codingan sementara. belum jalan

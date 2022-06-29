@@ -1,13 +1,12 @@
 import css from 'bootstrap/dist/css/bootstrap.min.css';
-import searchicon from '../../../public/icons/search-icon.svg';
 import notfoundfavilustration from '../../../public/images/heros/notfound-fav.svg';
 import database from '../../data/book-idb';
 import AddFav from '../templates/favoriteitem';
 import delFavorite from '../../utils/delete-fav';
 
 const Favorite = {
-    async render() {
-        return `
+  async render() {
+    return `
         <div class="title-book-fav" >
             <h2>FAVORITE BOOK LIST</h2>
         </div>
@@ -20,21 +19,21 @@ const Favorite = {
         </div>
         
       `;
-    },
+  },
 
-    async afterRender() {
-        const books = await database.FavoriteBook.getAllBooksFav();
-        books.forEach((book) => {
-            AddFav.templateFavorite(book);
-            const notFound = document.querySelector('#booknotfound');
-            if (notFound.style.display === 'none') {
-                notFound.style.display = 'block';
-            } else {
-                notFound.style.display = 'none';
-            }
-            delFavorite.deleteBooksFav(book);
-        });
-    },
+  async afterRender() {
+    const books = await database.FavoriteBook.getAllBooksFav();
+    books.forEach((book) => {
+      const notFound = document.querySelector('#booknotfound');
+      if (notFound.style.display === 'none') {
+        notFound.style.display = 'block';
+      } else {
+        notFound.style.display = 'none';
+      }
+      AddFav.templateFavorite(book);
+      delFavorite.deleteBooksFav(book);
+    });
+  },
 
 };
 

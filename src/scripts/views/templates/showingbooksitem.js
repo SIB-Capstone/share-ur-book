@@ -1,17 +1,16 @@
-/* eslint-disable indent */
 class Showingbooksitem {
-    static showingbooksitem(book) {
-        const { volumeInfo } = book;
-        this._templateBooks(book, volumeInfo);
-    }
+  static showingbooksitem(book) {
+    const { volumeInfo } = book;
+    this._templateBooks(book, volumeInfo);
+  }
 
-    static _templateBooks(book, volumeInfo) {
-            const {
-                title,
-                authors,
-                imageLinks,
-            } = volumeInfo;
-            document.querySelector('#list-book').innerHTML += `
+  static _templateBooks(book, volumeInfo) {
+    const {
+      title,
+      authors,
+      imageLinks,
+    } = volumeInfo;
+    document.querySelector('#list-book').innerHTML += `
         <div class="booksItem">
         <img src="${imageLinks.thumbnail}" alt="books">
         <div class="cardBook">
@@ -25,5 +24,3 @@ class Showingbooksitem {
 }
 
 export default Showingbooksitem;
-
-// codingan sementara. belum jalan

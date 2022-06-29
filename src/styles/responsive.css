@@ -51,10 +51,10 @@
         grid-template-columns: 1fr 1fr!important;
     }
     .booknotfound img {
-        width: 300px!important;
+        width: 300px !important;
     }
     .booknotfoundhome img {
-        width: 300px!important;
+        width: 300px !important;
     }
 }
 
@@ -184,10 +184,10 @@
         padding: 100px;
     }
     .booknotfound img {
-        width: 500px!important;
+        width: 500px !important;
     }
     .booknotfoundhome img {
-        width: 500px!important;
+        width: 500px !important;
     }
     .list-review {
         display: grid;

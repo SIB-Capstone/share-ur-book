@@ -5,6 +5,7 @@ import Detail from '../views/pages/detail';
 import About from '../views/pages/aboutus';
 
 const routes = {
+  '/': Home,
   '/home': Home,
   '/favorite': Favorite,
   '/reviews': Reviews,
