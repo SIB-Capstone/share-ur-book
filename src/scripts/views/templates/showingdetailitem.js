@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 class Showingdetailitem {
     static showingdetailitem(books) {
         const { volumeInfo } = books;
@@ -19,7 +18,7 @@ class Showingdetailitem {
         <div class="container detail-card">
         <div class="row">
             <div class="col-lg-6 col-sm-12" id="imageBook">
-            <img src="${imageLinks.thumbnail}"/>
+            <img src="${imageLinks.thumbnail}" alt="booksImage"/>
             </div>
             <div class="col-lg-6 col-sm-12" id="detailBook">
             <h5>${title}</h5>
@@ -35,5 +34,3 @@ class Showingdetailitem {
 }
 
 export default Showingdetailitem;
-
-// codingan sementara. belum jalan
