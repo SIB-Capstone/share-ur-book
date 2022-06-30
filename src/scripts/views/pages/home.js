@@ -20,7 +20,7 @@ const Home = {
                 <h1 class="display-4 fw-bold lh-1 mb-3">LETS SEE THE WORLD WITH OUR BOOKS</h1>
                 <p class="lead">"Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers." ― Charles W. Eliot</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-outline-secondary btn-lg px-5 rounded-5">Search For a Books Now!</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-5 rounded-5"><a href="#searchbar">Search For a Books Now!</a></button>
                 </div>
               </div>
             </div>
@@ -28,7 +28,7 @@ const Home = {
         </div>
 
         <!-- ini title section dan search  -->
-        <section>
+        <section id="searchbar">
         <div class="title-book">
             <h2>Find Books Here</h2>
             <div class="searchbar">
@@ -50,7 +50,7 @@ const Home = {
           <div class="list-book" id="list-book">
          
           </div>
-          <div class="booknotfound" id="booknotfound">
+          <div class="booknotfoundhome" id="booknotfoundhome">
           <img src="${notfoundilustration}" alt="">
           <h3>Books not found, search now again ...</h3>
           </div>
@@ -66,5 +66,3 @@ const Home = {
 };
 
 export default Home;
-
-// template sementara, masih bisa dirubah ubah

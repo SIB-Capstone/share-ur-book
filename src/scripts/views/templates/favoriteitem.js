@@ -1,16 +1,15 @@
 import css from 'bootstrap/dist/css/bootstrap.min.css';
-import deleteicon from '../../../public/icons/delete.svg';
 
 class AddFav {
-    static templateFavorite(books) {
-            const {
-                id,
-                title,
-                author,
-                image,
-            } = books;
-            const itemFavorite = document.querySelector('#list-book-fav');
-            itemFavorite.innerHTML += `
+  static templateFavorite(books) {
+    const {
+      id,
+      title,
+      author,
+      image,
+    } = books;
+    const itemFavorite = document.querySelector('#list-book-fav');
+    itemFavorite.innerHTML += `
     <div class="booksItem">
         <img src="${image}" alt="books">
         <div class="cardBook">

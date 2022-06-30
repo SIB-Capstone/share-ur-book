@@ -17,7 +17,7 @@ const BooksAPIReq = async (query) => {
 
 const searchElement = async (event) => {
   event.preventDefault();
-  const notFound = document.querySelector('#booknotfound');
+  const notFound = document.querySelector('#booknotfoundhome');
   const query = document.querySelector('#searchBookInput').value;
   BooksAPIReq(query);
   if (notFound.style.display === 'none') {
@@ -28,5 +28,3 @@ const searchElement = async (event) => {
 };
 
 export default searchElement;
-
-// codingan sementara. belum jalan

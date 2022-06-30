@@ -16,7 +16,7 @@ class Showingbooksitem {
         <div class="cardBook">
             <h9 class="bookTitle">${title}</h9>
             <span class="author">${authors}</span>
-            <p class="description"><a href="${`/#/detail/${book.id}`}"> See Details</a></p>
+            <p class="description"><button type="button" id="detailbutton" autofocus><a href="${`/#/detail/${book.id}`}"> See Details</a></button> </p>
         </div>
     </div>
         `;
@@ -24,5 +24,3 @@ class Showingbooksitem {
 }
 
 export default Showingbooksitem;
-
-// codingan sementara. belum jalan
