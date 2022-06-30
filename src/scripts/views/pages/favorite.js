@@ -16,8 +16,7 @@ const Favorite = {
         <div class="booknotfound" id="booknotfound">
         <img src="${notfoundfavilustration}" alt=""> 
         <h3>Favorite book not found ...</h3>
-        </div>
-        
+        </div>        
       `;
   },
 
