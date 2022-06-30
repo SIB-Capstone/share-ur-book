@@ -1,2 +1,3 @@
 node_modules
 .vscode/launch.json
+src/scripts/views/pages/reviews.js
