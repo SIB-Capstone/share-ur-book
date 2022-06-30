@@ -16,7 +16,7 @@ const AboutUs = {
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://instagram.com/nadyanrwhh__?igshid=YmMyMTA2M2Y=" class="social-link"><i class="fa fa-instagram"></i>instagram</a></li>
+            <li class="list-inline-item"><a href="https://instagram.com/nadyanrwhh__?igshid=YmMyMTA2M2Y=" class="social-link"><i class="bi bi-instagram"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
@@ -28,7 +28,7 @@ const AboutUs = {
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/saputlp/" class="social-link"><i class="fa fa-instagram"></i>instagram</a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/saputlp/" class="social-link"><i class="bi bi-instagram"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
@@ -40,7 +40,7 @@ const AboutUs = {
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/Eldy_dimaz/" class="social-link"><i class="fa fa-instagram"></i>instagram</a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/Eldy_dimaz/" class="social-link"><i class="bi bi-instagram"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ const AboutUs = {
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com/rizalhersani/" class="social-link"><i class="fa fa-instagram"></i>instagram</a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/rizalhersani/" class="social-link"><i class="bi bi-instagram"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
