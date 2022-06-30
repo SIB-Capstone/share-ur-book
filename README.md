@@ -1,4 +1,4 @@
-# share-ur-book
+# Share-Ur-Book
 This for our Capstone Submission
 
 Website Share Ur Book merupakan website yang dibuat untuk menampilkan daftar buku yang memuat informasi seputar penulis, judul buku, serta deskripsi singkat dari buku tersebut.
