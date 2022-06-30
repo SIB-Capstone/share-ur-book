@@ -14,12 +14,14 @@ const dbPromise = openDB(DATABASE_NAME, DATABASE_VERSION, {
   upgrade(database) {
     database.createObjectStore(OBJECT_STORE_NAME, { keyPath: 'id' });
   },
+
 });
 
 const dbPromiseRev = openDB(DATABASE_NAME_REV, DATABASE_VERSION_REV, {
   upgrade(database) {
     database.createObjectStore(OBJECT_STORE_NAME_REV, { keyPath: 'idrev' });
   },
+
 });
 
 const FavoriteBook = {
@@ -41,6 +43,7 @@ const FavoriteBook = {
 };
 
 const ReviewBook = {
+
   async addReviews(idrev) {
     return (await dbPromiseRev).add(OBJECT_STORE_NAME_REV, idrev);
   },

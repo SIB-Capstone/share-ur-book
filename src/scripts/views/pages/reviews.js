@@ -56,7 +56,6 @@ const Reviews = {
   </div>
       `;
   },
-
   async afterRender() {
     const inputContactForm = document.querySelector('#inputReview');
         inputContactForm.addEventListener('submit', async(e) => { // eslint-disable-line
