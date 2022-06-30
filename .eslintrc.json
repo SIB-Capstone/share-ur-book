@@ -22,7 +22,9 @@
         "consistent-return" : "off",
         "no-prototype-builtins" : "off",
         "eol-last" : "off",
-        "linebreak-style" : "off"
-        
+        "linebreak-style" : "off",
+        "camelcase" : "off",
+        "import/no-extraneous-dependencies": "off",
+        "no-alert" : "off"
     }
 }
