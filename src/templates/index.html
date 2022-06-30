@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="Share Ur Book">
+    <link rel="icon" href="./images/logo/favicon.png">
     <base href="/">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/html">
     <title>Share Ur Book</title>
@@ -15,12 +16,12 @@
     <a href="#content" class="link-skip" tabindex="0">Skip To Content?</a>
     <div id="hamburger-container"><a id="hamburger" href="#">☰</a></div>
     <!-- navbar desktop -->
-    <nav class="navbar">
+    <nav class="navbar-desktop">
         <a href="" class="logo-website"> <img src="./images/logo/logo-1.png" alt="logo web" width="120"></a>
         <div class="menu-website" id="menu-button" alt="logo button">
             <a href="#"><img src="./images/logo/button-nav.svg " alt="logo web" width="40px"></a>
         </div>
-        <ul class="nav-list ">
+        <ul class="nav-list">
             <li class="nav-items "><a href="#/home">HOME</a></li>
             <li class="nav-items "><a href="#/favorite">FAVORITE</a> </li>
             <li class="nav-items "><a href="#/Reviews">REVIEWS</a> </li>
@@ -28,14 +29,24 @@
     </nav>
     <!-- akhir navbar desktop -->
     <!-- navbar mobile -->
-    <nav class="navbar-mobile">
+    <nav class="navbar-mobile-view">
         <ul class="nav-list-mobile">
             <li class="nav-items-mobile"><a href="#/home">HOME</a></li>
             <li class="nav-items-mobile"><a href="#/favorite">FAVORITE</a> </li>
             <li class="nav-items-mobile"><a href="#/Reviews">REVIEWS</a> </li>
         </ul>
     </nav>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+
+    <main id="main-content">
+       
+
+    </main>
+    <footer>
+        <p>Copyright &copy; 2022 - Share Ur Book</p>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 
 </html>
