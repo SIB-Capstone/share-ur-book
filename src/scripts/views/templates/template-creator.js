@@ -1,4 +1,5 @@
-import Showingbooksitem from "./showingBooksItem";
+import Showingbooksitem from './showingbooksitem';
+import Showingdetailitem from './showingdetailitem';
 
 class template {
     static createBooksTemplate(books) {
@@ -6,9 +7,10 @@ class template {
             Showingbooksitem.showingbooksitem(book);
         });
     }
+
+    static detailBooksTemplate(books) {
+        Showingdetailitem.showingdetailitem(books);
+    }
 }
 
-
 export default template;
-
-// codingan sementara. belum jalan

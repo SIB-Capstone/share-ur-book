@@ -1,12 +1,8 @@
 import apiEndpoint from '../globals/api-endpoint';
 import templateBooks from '../views/templates/template-creator';
 
-const searchBookQuery = document.querySelector('#searchBookInput');
-const booksSection = document.querySelector('#list-book');
-
 const renderBooks = (items) => {
-    booksSection.innerHTML = '';
-
+    document.querySelector('#list-book').innerHTML = '';
     templateBooks.createBooksTemplate(items);
 };
 
@@ -21,10 +17,14 @@ const BooksAPIReq = async(query) => {
 
 const searchElement = async(event) => {
     event.preventDefault();
-    const query = searchBookQuery.value;
+    const notFound = document.querySelector('#booknotfoundhome');
+    const query = document.querySelector('#searchBookInput').value;
     BooksAPIReq(query);
+    if (notFound.style.display === 'none') {
+        notFound.style.display = 'block';
+    } else {
+        notFound.style.display = 'none';
+    }
 };
 
 export default searchElement;
-
-// codingan sementara. belum jalan
