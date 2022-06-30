@@ -12,48 +12,48 @@ const AboutUs = {
    
       <div class="col-xl-3 col-sm-6 mb-5 p-4  text-center">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Nadya Nur Wahyunita</h5><span class="small text-uppercase text-muted">F7296A270</span>
+          <h5 class="mb-0"><a href="https://github.com/nadiyanurwahyunita106">Nadya Nur Wahyunita</h5></a><span class="small text-uppercase text-muted">F7296A270</span>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://instagram.com/nadyanrwhh__?igshid=YmMyMTA2M2Y=" class="social-link"><i class="bi bi-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/nadiya-nur-wahyunita/" class="social-link"><i class="bi bi-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
     
       <div class="col-xl-3 col-sm-6 mb-5 p-4  text-center">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Saputra Langgang</h5><span class="small text-uppercase text-muted">F2007A025</span>
+          <h5 class="mb-0"><a href="https://github.com/kursitoklek">Saputra Langgang</h5></a><span class="small text-uppercase text-muted">F2007A025</span>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-twitter"></i></a></li>
+            <li <li class="list-inline-item"><a href="https://www.instagram.com/saputlp/" class="social-link"><i class="bi bi-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/saputlp/" class="social-link"><i class="bi bi-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
     
       <div class="col-xl-3 col-sm-6 mb-5 p-4  text-center">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Mas Edi</h5><span class="small text-uppercase text-muted">F2396A400</span>
+          <h5 class="mb-0"><a href="https://github.com/masedi54">Mas Edi</h5></a><span class="small text-uppercase text-muted">F2396A400</span>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/Eldy_dimaz/" class="social-link"><i class="bi bi-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/mas-edi-49474219b/" class="social-link"><i class="bi bi-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
     
       <div class="col-xl-3 col-sm-6 mb-5 p-4  text-center">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-          <h5 class="mb-0">Rizal Hersani</h5><span class="small text-uppercase text-muted">F2191A153</span>
+          <h5 class="mb-0"><a href="https://github.com/rizaldeveloper">Rizal Hersani</h5></a><span class="small text-uppercase text-muted">F2191A153</span>
           <ul class="social mb-0 list-inline mt-3">
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="bi bi-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/rizalhersani/" class="social-link"><i class="bi bi-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/rizal-hersani-37a38a226/" class="social-link"><i class="bi bi-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
