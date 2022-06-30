@@ -575,6 +575,7 @@ section {
     text-align: center;
     background-color: #FAF8F7;
     height: 600px;
+    overflow: auto;
 }
 
 .modal-content {
@@ -608,13 +609,20 @@ section {
 }
 
 #favorite-button {
-    color: #ffffff;
-    background-color: #2d63c8;
-    font-size: 19px;
-    border: 0px solid #2d63c8;
-    border-radius: 40px;
-    padding: 15px 50px;
-    cursor: pointer
+    display: flex;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    font-size: 18px;
+    bottom: 16px;
+    right: 16px;
+    color: white;
+    background-color: #002E5D;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 #favorite-button:hover {
@@ -718,6 +726,7 @@ section {
  * footer
  */
 
+
 footer {
     background-color: #F3F4EF;
     width: 100%;
@@ -732,3 +741,4 @@ footer {
 .list {
     margin-top: 20px;
 }
+

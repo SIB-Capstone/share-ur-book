@@ -30,6 +30,8 @@ const Favorite = {
       } else {
         notFound.style.display = 'none';
       }
+    const books = await database.getAllBooksFav();
+    books.forEach((book) => {
       AddFav.templateFavorite(book);
       delFavorite.deleteBooksFav(book);
     });
