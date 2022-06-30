@@ -5,8 +5,8 @@ import AddFav from '../templates/favoriteitem';
 import delFavorite from '../../utils/delete-fav';
 
 const Favorite = {
-  async render() {
-    return `
+    async render() {
+        return `
         <div class="title-book-fav" >
             <h2>FAVORITE BOOK LIST</h2>
         </div>
@@ -19,23 +19,21 @@ const Favorite = {
         </div>
         
       `;
-  },
+    },
 
-  async afterRender() {
-    const books = await database.FavoriteBook.getAllBooksFav();
-    books.forEach((book) => {
-      const notFound = document.querySelector('#booknotfound');
-      if (notFound.style.display === 'none') {
-        notFound.style.display = 'block';
-      } else {
-        notFound.style.display = 'none';
-      }
-    const books = await database.getAllBooksFav();
-    books.forEach((book) => {
-      AddFav.templateFavorite(book);
-      delFavorite.deleteBooksFav(book);
-    });
-  },
+    async afterRender() {
+        const books = await database.FavoriteBook.getAllBooksFav();
+        books.forEach((book) => {
+            const notFound = document.querySelector('#booknotfound');
+            if (notFound.style.display === 'none') {
+                notFound.style.display = 'block';
+            } else {
+                notFound.style.display = 'none';
+            }
+            AddFav.templateFavorite(book);
+            delFavorite.deleteBooksFav(book);
+        });
+    },
 
 };
 
