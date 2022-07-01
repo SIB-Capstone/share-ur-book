@@ -1,5 +1,10 @@
 ![WhatsApp Image 2022-05-23 at 10 52 10](https://user-images.githubusercontent.com/68459951/176805036-c7d02030-da80-488d-8f13-edcb521b386d.jpeg)
 
+### Deploy
+```
+https://share-ur-book.netlify.app/
+```
+
 
 # Share-Ur-Book
 This for our Capstone Submission
@@ -15,6 +20,7 @@ Berikut daftar dokumentasi proyek:
 * Terdapat fitur tambah buku favorite
 * Fitur add review
 * PWA
+* Hosting
 
 ### Resources Link
 * [Book APIs](https://developers.google.com/books/docs/v1/using)
