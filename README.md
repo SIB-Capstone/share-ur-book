@@ -36,7 +36,7 @@ Berikut daftar dokumentasi proyek:
 * Visual Studio Code 
 * Postman
 
-### Dicumentation
+### Documentation
 1. clone repo di lokal dengan git comand
 ```
 git clone https://github.com/SIB-Capstone/share-ur-book.git
