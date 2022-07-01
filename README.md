@@ -32,6 +32,9 @@ Berikut daftar dokumentasi proyek:
 
 ### Dicumentation
 1. clone repo di lokal dengan git comand
+```
+git clone https://github.com/SIB-Capstone/share-ur-book.git
+```
 2. pastikan telah menginstall Node.js
 3. buka pada visual studio code
 4. jalankan npm berikut pada terminal untuk install package
